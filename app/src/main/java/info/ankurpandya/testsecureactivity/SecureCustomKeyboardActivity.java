@@ -3,7 +3,7 @@ package info.ankurpandya.testsecureactivity;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-public class SecureActivity extends BaseFormActivity {
+public class SecureCustomKeyboardActivity extends BaseKeyboardActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

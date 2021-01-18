@@ -25,9 +25,31 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/gap_internal"
         android:text="@string/action_secure_activity"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_keyboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_non_secure" />
+
+    <Button
+        android:id="@+id/btn_keyboard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gap_internal"
+        android:text="@string/action_keyboard_activity"
+        app:layout_constraintBottom_toTopOf="@+id/btn_secure_keyboard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_secure" />
+
+    <Button
+        android:id="@+id/btn_secure_keyboard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gap_internal"
+        android:text="@string/action_secure_keyboard_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_keyboard" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,5 +3,7 @@
     <string name="hint_pin">Please enter you security pin</string>
     <string name="action_submit">Submit</string>
     <string name="action_secure_activity">Secure Activity</string>
+    <string name="action_keyboard_activity">Keyboard Activity</string>
+    <string name="action_secure_keyboard_activity">Secure Keyboard Activity</string>
     <string name="action_non_secure_activity">Non Secure Activity</string>
 </resources>

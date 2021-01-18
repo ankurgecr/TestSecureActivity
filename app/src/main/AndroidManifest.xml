@@ -11,6 +11,8 @@
         android:theme="@style/Theme.TestSecureActivity">
         <activity android:name=".NonSecureActivity"></activity>
         <activity android:name=".SecureActivity"></activity>
+        <activity android:name=".CustomKeyboardActivity"></activity>
+        <activity android:name=".SecureCustomKeyboardActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
